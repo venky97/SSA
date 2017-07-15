@@ -39,6 +39,7 @@ body{
 .title_2{
   font-size: 32px;
   padding-bottom: 10px;
+  padding-left: 170px;
 }
 .fa-facebook{
   color: blue;
@@ -340,4 +341,17 @@ footer{
   color: var(--accent);
   margin-left: 100px;
   margin-bottom: 50px;
+}
+label {
+  display: inline-block;
+  width: 200px;
+  text-align: right;
+}​
+input:focus{
+  border: var(--accent);
+  box-shadow: 0px 0px 4px var(--main);
+}
+.norm{
+  color: var(--accent);
+  font-size: 16px;
 }

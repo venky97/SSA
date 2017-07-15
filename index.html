@@ -39,7 +39,7 @@
 <div class="container-fluid nav">
   <ul class="nav-li">
     <li class="nav_li"><a href="#">HOME</a></li>
-    <li class="nav_li"><a href="#">ABOUT ANNA</a></li>
+    <li class="nav_li"><a href="About.html">ABOUT ANNA</a></li>
     <li class="nav_li"><a href="#">ACTIVITIES</a></li>
     <li class="nav_li"><a href="#">CONTRIBUTE</a></li>
     <li class="nav_li"><a href="register.html">REGISTER</a></li>
@@ -61,7 +61,7 @@
       <ul id="aud-li">
         <li class="aud-li-e"><audio src="" class="aud"></audio>1)thunder</li>
         <li class="aud-li-e"><audio src="" class="aud"></audio>2)wind</li>
-        <li class="aud-li-e"><audio src="" class="aud"></audio>3)birds</li>
+        <li class="aud-li-e"><audio src="" class="aud" id="bird"></audio>3)birds</li>
         <li class="aud-li-e"><audio src="" class="aud"></audio>4)murmer</li>
         <li class="aud-li-e"><audio src="" class="aud"></audio>5)snore</li>
         <li class="aud-li-e"><audio src="" class="aud"></audio>6)fan</li>
@@ -207,7 +207,7 @@
         <ul id="eve-li">
           <li class="eve-li-e">1)thunder</li>
           <li class="eve-li-e">2)wind</li>
-          <li class="eve-li-e">3)birds</li>
+          <li class="eve-li-e"><a data-toggle="modal" data-target="#myModal">3)birds</a></li>
           <li class="eve-li-e">4)murmer</li>
           <li class="eve-li-e">5)snore</li>
           <li class="eve-li-e">6)fan</li>
@@ -238,5 +238,14 @@
 <footer class="text-center">
   @copyright
 </footer>
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <audio src="" id="play"></audio>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
